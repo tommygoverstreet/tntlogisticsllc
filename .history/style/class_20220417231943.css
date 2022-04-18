@@ -171,12 +171,12 @@
  width: 100vw;
  min-height: 500px;
  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-  url("../assets/header.png");
+  url("../assets/work-truck.jpg");
  background-repeat: no-repeat;
  background-size: cover;
  background-attachment: fixed;
  background-position: center;
-
+ position: relative;
  z-index: -1;
 }
 

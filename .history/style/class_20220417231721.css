@@ -171,12 +171,12 @@
  width: 100vw;
  min-height: 500px;
  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-  url("../assets/header.png");
+  url("../assets/work-truck.jpg");
  background-repeat: no-repeat;
  background-size: cover;
  background-attachment: fixed;
  background-position: center;
-
+ position: relative;
  z-index: -1;
 }
 
@@ -199,9 +199,8 @@
  height: 10vh;
  font-size: 1.7em;
  box-shadow: 20px var(--main) 15px 0.7;
- padding: 0 15%;
+ padding: 0 45%;
  display: grid;
- grid-template-columns: 1fr 1fr;
 }
 
 /*-- Sections with Dark Background --*/
