@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap");
+
+:root {
+ --main: rgb(2, 32, 82);
+ --secondary: #F2E6E6;
+ --light: rgb(145, 148, 153);
+ --dark: #1D2731;
+ --full-width: 100vw;
+ --half-width: 50vw;
+ --thirds-width: 33%;
+ --fourths-width: 20%;
+}
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: Bebas Neus, helvetica, arial, sans-serif;
+ font-size: 12px;
+ min-width: 450px;
+ width: 100vw;
+}

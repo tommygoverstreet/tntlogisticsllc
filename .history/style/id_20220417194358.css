@@ -1,0 +1,76 @@
+
+
+
+
+.section-A {
+ width: 100vw;
+ height: 100vh;
+ background-color: var(--main);
+ color: var(--secondary);
+}
+
+.section-B {
+ width: 100vw;
+ height;
+ 100vh;
+ background-color: var(--secondary);
+ color: var(--main);
+}
+
+.sub-heading {
+ text-align: center;
+ padding: 25px;
+}
+
+
+.section-info {
+ display: block;
+ margin: 25px;
+}
+
+.section-img {
+ width: 50vw;
+ height: 80%;
+ border-radius: 10px;
+}
+
+.card-container {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ padding: 25px;
+}
+
+.about {}
+
+.services {}
+
+.gallery {}
+
+.gallery-container {
+ padding: 30px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr 1fr;
+ grid-gap: 15px;
+ margin-left: 15px;
+}
+
+.gallery-img {
+ width: 20vw;
+ height: 20vh;
+ border-radius: 15px;
+}
+
+.contact {}
+
+.footer {
+ height: 30vh;
+ width: 100vw;
+ background-color: var(--secondary);
+ color: var(--main);
+}
+
+.footer p {
+ padding: 25vh 0 0 0;
+ text-align: center;
+}

@@ -1,0 +1,281 @@
+.container {
+ width: var(--full-width);
+ height: 10vh;
+ margin: auto;
+}
+
+/*-- Navigation --*/
+.navbar {
+ width: var(--full-width);
+ background: var(--dark);
+ position: fixed;
+}
+
+/*-- Navigation Container --*/
+.nav-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 10vh;
+ background-color: var(--main);
+ color: var(--secondary);
+}
+
+/*-- Visible Heading --*/
+.navbar .menu-items {
+ display: flex;
+}
+
+/*-- List Items Hidden --*/
+.navbar .nav-container li {
+ list-style: none;
+}
+
+/*-- Nav Container Hidden --*/
+.navbar .nav-container a {
+ text-decoration: none;
+ color: var(--secondary);
+ font-weight: 500;
+ font-size: 1.2rem;
+ padding: 0.7rem;
+}
+
+/*-- Nav Links Hover --*/
+.navbar .nav-container a:hover {
+ font-weight: 600;
+}
+
+/*-- Navigation Container --*/
+.nav-container {
+ display: block;
+ position: relative;
+ height: 10vh;
+}
+
+/*-- Checkbox Container --*/
+.nav-container .checkbox {
+ position: absolute;
+ display: block;
+ height: 22px;
+ width: 22px;
+ top: 15px;
+ left: 10px;
+ z-index: 99;
+ opacity: 0;
+ cursor: pointer;
+}
+
+/*-- Hanburger Lines --*/
+.nav-container .hamburger-lines {
+ display: block;
+ height: 22px;
+ width: 22px;
+ position: absolute;
+ top: 17px;
+ left: 20px;
+ z-index: 2;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+/*-- Individual Hamburger Lines --*/
+.nav-container .hamburger-lines .line {
+ display: block;
+ height: 4px;
+ width: 100%;
+ border-radius: 10px;
+ color: var(--main);
+ background-color: var(--secondary);
+}
+
+/*-- Hamburger Line 1 --*/
+.nav-container .hamburger-lines .line1 {
+ transform-origin: 0% 0%;
+ transition: transform 0.4s ease-in-out;
+}
+
+/*-- Hamburger Line 2 --*/
+.nav-container .hamburger-lines .line2 {
+ transition: transform 0.2s ease-in-out;
+}
+
+/*-- Hamburger Line 3 --*/
+.nav-container .hamburger-lines .line3 {
+ transform-origin: 0% 100%;
+ transition: transform 0.4s ease-in-out;
+}
+
+/*-- Menu Items --*/
+.navbar .menu-items {
+ padding-top: 100px;
+ height: 100vh;
+ width: 100vw;
+ background-color: var(--main);
+ color: var(--secondary);
+ transform: translate(-150%);
+ display: flex;
+ flex-direction: column;
+ transition: transform 0.5s ease-in-out;
+ text-align: center;
+}
+
+/*-- Menu List Items --*/
+.navbar .menu-items li {
+ margin-bottom: 1.2rem;
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+
+
+/*-- Logo Floated Right --*/
+.logo {
+ position: absolute;
+ width: 25vw;
+ height: 6vh;
+ top: 5px;
+ right: 2vw;
+ font-size: 1.0rem;
+ background-color: transparent;
+ color: var(--secondary);
+ border-radius: 15px;
+}
+
+/*-- Hamburger Lines Checked Status --*/
+.nav-container input[type="checkbox"]:checked~.menu-items {
+ transform: translateX(0);
+}
+
+/*-- Hamburger Line 1 Status Checked --*/
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+ transform: rotate(45deg);
+}
+
+/*-- Hamburger Line 2 Status Checked --*/
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+ transform: scaleY(0);
+}
+
+/*-- Hamburger Line 3 Status Checked --*/
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+ transform: rotate(-45deg);
+}
+
+/*-- Nav Container Logo Status Checked --*/
+.nav-container input[type="checkbox"]:checked~.logo {
+ display: none;
+}
+
+/*-- Parallax Background Image --*/
+.hero {
+ width: 100vw;
+ min-height: 500px;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url("../assets/work-truck.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+ position: relative;
+ z-index: -1;
+}
+
+/*-- Title Over Hero Image --*/
+.headline {
+ width: 100vw;
+ height: 25vh;
+ padding: 22% 30%;
+ display: block;
+ color: var(--secondary);
+ text-shadow: 5px 10px 15px var(--main);
+ font-size: 2em;
+}
+
+/*-- Subscribe Email Container --*/
+.subscribe {
+ color: var(--secondary);
+ background-color: var(--main);
+ width: 100vw;
+ height: 10vh;
+ font-size: 1.7em;
+ box-shadow: 20px var(--main) 15px 0.7;
+ padding: 0 45%;
+ display: flex;
+}
+
+/*-- Sections with Dark Background --*/
+.section-A {
+ width: 100vw;
+ height: 100vh;
+ background-color: var(--main);
+ color: var(--secondary);
+}
+
+/*-- Sections with Light Background --*/
+.section-B {
+ width: 100vw;
+ height;
+ 100vh;
+ background-color: var(--secondary);
+ color: var(--main);
+}
+
+/*-- Section Labels --*/
+.sub-heading {
+ text-align: center;
+ padding: 25px;
+}
+
+/*-- About Section Info --*/
+.section-info {
+ display: block;
+ margin: 25px;
+}
+
+/*-- About Section Image --*/
+.section-img {
+ width: 50vw;
+ height: 80%;
+ border-radius: 10px;
+}
+
+/*-- Services Section Container --*/
+.card-container {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ padding: 25px;
+}
+
+/*-- Gallery Section Image Container --*/
+.gallery-container {
+ padding: 30px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr 1fr;
+ grid-gap: 15px;
+ margin-left: 15px;
+}
+
+/*-- Gallery Section Images --*/
+.gallery-img {
+ width: 20vw;
+ height: 20vh;
+ border-radius: 15px;
+}
+
+/*-- Contact Section Container --*/
+.contact {}
+
+/*-- Footer Section Container --*/
+.footer {
+ height: 30vh;
+ width: 100vw;
+ background-color: var(--secondary);
+ color: var(--main);
+}
+
+/*-- Footer Section Text --*/
+.footer p {
+ padding: 25vh 0 0 0;
+ text-align: center;
+}
