@@ -5,7 +5,7 @@
  margin: 0;
  padding: 0;
  width: var(--full-width);
- background: var(--main);
+ background: var(;
 }
 
 .spacer {
@@ -173,14 +173,14 @@
 /*-- Parallax Background Image --*/
 .hero {
  width: 100vw;
- height: 100vh;
+ min-height: 100vh;
  background-image: url("../assets/business-card.jpg");
  background-repeat: no-repeat;
  background-size: cover;
  background-attachment: fixed;
  background-position: center center;
 
- z-index: 1;
+ z-index: -1;
 }
 
 /*-- Subscribe Email Container --*/

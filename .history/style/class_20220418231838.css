@@ -1,28 +1,30 @@
 .header {
- width: 100vw;
- height: 8vh;
- position: fixed;
- margin: 0;
- padding: 0;
- width: var(--full-width);
- background: var(--main);
+width: 100vw;
+height: 8vh;
+
 }
 
-.spacer {
- height: 8vh;
- width: 100vw;
- background-color: var(--main);
+.container {
+ width: var(--full-width);
+ height: 10vh;
+ margin: auto;
 }
 
 /*-- Navigation --*/
-.navbar {}
+.navbar {
+ width: var(--full-width);
+ background: var(--dark);
+ position: fixed;
+}
 
 /*-- Navigation Container --*/
 .nav-container {
  display: flex;
  justify-content: space-between;
  align-items: center;
-
+ height: 8vh;
+ background-color: var(--main);
+ color: var(--secondary);
 }
 
 /*-- Visible Heading --*/
@@ -41,7 +43,7 @@
  color: var(--secondary);
  font-weight: 500;
  font-size: 1.2rem;
- /*-- padding: 0.7rem; --*/
+ padding: 0.7rem;
 }
 
 /*-- Nav Links Hover --*/
@@ -52,8 +54,8 @@
 /*-- Navigation Container --*/
 .nav-container {
  display: block;
-
-
+ position: fixed;
+ height: 10vh;
 }
 
 /*-- Checkbox Container --*/
@@ -173,14 +175,15 @@
 /*-- Parallax Background Image --*/
 .hero {
  width: 100vw;
- height: 100vh;
+ min-height: 100vh;
+ margin-top: 4vh;
  background-image: url("../assets/business-card.jpg");
  background-repeat: no-repeat;
  background-size: cover;
  background-attachment: fixed;
  background-position: center center;
 
- z-index: 1;
+ z-index: -1;
 }
 
 /*-- Subscribe Email Container --*/

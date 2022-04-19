@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap");
 
 :root {
- --secondary: #216fb3;
+ --secondary: #3;
  --main: rgb(227, 228, 230);
  --light: rgb(145, 148, 153);
  --dark: #1D2731;
@@ -22,7 +22,4 @@ body {
  font-size: 12px;
  min-width: 450px;
  width: 100vw;
- margin: 0;
- padding: 0;
- display: block;
 }

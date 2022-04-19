@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap");
+
+:root {
+ --secondary: <form accept-charset="UTF-8"action="action_page.php"autocomplete="off"method="GET"target="_blank"><label for="name">Name</label><br /><input name="name"type="text"value="Frank"/><br /><input checked="checked"name="sex"type="radio"value="male"/>Male <br /><input name="sex"type="radio"value="female"/>Female <br /><textarea cols="30"rows="2">Long text.</textarea><br /><input name="democheckbox"type="checkbox"value="1"/>Checkbox<br /><button type="submit"value="Submit">Submit</button></form>
+ --main: rgb(227, 228, 230);
+ --light: rgb(145, 148, 153);
+ --dark: #1D2731;
+ --full-width: 100vw;
+ --half-width: 50vw;
+ --thirds-width: 33%;
+ --fourths-width: 20%;
+}
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: Bebas Neus, helvetica, arial, sans-serif;
+ font-size: 12px;
+ min-width: 450px;
+ width: 100vw;
+}
