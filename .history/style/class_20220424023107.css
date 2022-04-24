@@ -174,12 +174,21 @@
 .hero {
  width: 100vw;
  height: 100vh;
- background-image: url("./assets/business-card.jpg");
+ <<<<<<< HEAD background-image: url("./assets/business-card.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center center;
+ =======background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url("../assets/C20A367D-EB38-408F-8D71-021036C8AFC4.png");
  background-repeat: no-repeat;
  background-size: cover;
  background-attachment: fixed;
  background-position: center;
  z-index: -1;
+}
+
+>>>>>>>4baad054e41e13458cd9b35a24d4d79cba903c77 z-index: 1;
 }
 
 /*-- Subscribe Email Container --*/
