@@ -173,8 +173,8 @@
 /*-- Parallax Background Image --*/
 .hero {
  width: 100vw;
- height: 650px;
- background: #fff url("https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/278600067_418093660316954_2832372038730339812_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=tBEcS972h2IAX8kqfPR&_nc_ht=scontent-dfw5-2.xx&oh=00_AT9OpBovD_piUMFoBjSez4EwHTXzHkzSrPOttUT4oSYNKg&oe=626A7728") center center/cover no-repeat local;
+ height: 100vh;
+ background: #fff url("https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/278600067_418093660316954_2832372038730339812_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=tBEcS972h2IAX8kqfPR&_nc_ht=scontent-dfw5-2.xx&oh=00_AT9OpBovD_piUMFoBjSez4EwHTXzHkzSrPOttUT4oSYNKg&oe=626A7728") center center/cover no-repeat fixed;
  z-index: -1;
 }
 
