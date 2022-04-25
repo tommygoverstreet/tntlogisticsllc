@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap");
 
 :root {
-	--secondary: rgb(7, 67, 90);
+	--secondary: rgb(11, 124, 168);
 	--main: rgb(227, 228, 230);
-	--light: rgb(10, 97, 238);
-	--dark: #011120;
+	--light: rgb(145, 148, 153);
+	--dark: #1D2731;
 	--full-width: 100vw;
 	--half-width: 50vw;
 	--thirds-width: 33%;
