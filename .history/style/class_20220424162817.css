@@ -235,7 +235,6 @@
 /*-- Gallery Section Image Container --*/
 .gallery-container {
  padding: 30px;
- height: 100%;
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
  grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -247,16 +246,13 @@
 
 /*-- Gallery Section Images --*/
 .gallery-img {
- width: 25vw;
- height: 25vh;
+ width: 20vw;
+ height: 20vh;
  border-radius: 15px;
- margin: auto;
 }
 
 /*-- Contact Section Container --*/
-.contact {
- margin: auto;
-}
+.contact {}
 
 /*-- Footer Section Container --*/
 .footer {

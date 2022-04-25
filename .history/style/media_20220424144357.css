@@ -1,0 +1,31 @@
+@media only screen and (min-width: 600px) {
+ * {}
+
+ .hero {
+  /*-- scaleX: 25%; ----*/
+  background-attachment: scroll;
+ }
+
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+ * {}
+
+ .hero {
+  /*-- scaleX: 25%; ----*/
+  background-attachment: scroll;
+ }
+
+ .subscribe {
+  display: block;
+  font-size: 1em;
+  height: 25vh;
+ }
+
+
+
+
+}

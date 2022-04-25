@@ -1,0 +1,44 @@
+@media only screen and (min-width: 600px) {
+ * {}
+
+ .hero {}
+
+ .small-screen-bg {
+  display: none;
+ }
+
+ form {
+  width: 100%;
+
+ }
+
+ @media only screen and (max-width: 600px) {
+  * {}
+
+
+
+  .subscribe {
+   display: block;
+   font-size: 1em;
+   height: 25vh;
+  }
+
+  .small-screen-bg {
+   display: flex;
+   height: 75vh;
+   width: 100vw;
+   background-color: var(--secondary);
+  }
+
+  .small-screen-bg img {
+   width: 75vw;
+   height: 75%;
+   margin: auto;
+  }
+
+  .gallery-container {
+   display: grid;
+   grid-template-column: 1fr;
+  }
+
+ }

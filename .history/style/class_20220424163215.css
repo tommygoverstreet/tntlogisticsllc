@@ -237,7 +237,7 @@
  padding: 30px;
  height: 100%;
  display: grid;
- grid-template-columns: 1fr 1fr 1fr;
+ grid-template-columns: 1fr 1fr;
  grid-template-rows: 1fr 1fr 1fr 1fr;
  grid-gap: 15px;
  margin-left: 15px;
@@ -254,9 +254,7 @@
 }
 
 /*-- Contact Section Container --*/
-.contact {
- margin: auto;
-}
+.contact {}
 
 /*-- Footer Section Container --*/
 .footer {

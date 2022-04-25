@@ -194,7 +194,7 @@ body {
 /*-- Parallax Background Image --*/
 .business-card {
 	width: 100vw;
-	height: 100vh;
+	height: 90vh;
 	padding: 15vh;
 	background-color: var(--secondary);
 
@@ -203,17 +203,14 @@ body {
 
 .business-card-img {
 	width: 65vw;
-	height: 65vh;
+	height: 45vh;
 	color: var(--main);
 	background-color: var(--secondary);
 	margin: 5vh 15vw 5vh 15vw;
 	border-radius: 25px;
-	transform: scaleX(75%);
-	transform: rotateX(0deg) rotateY(12deg);
+	transform: rotateX(5deg) rotateY(22deg);
 	transform-style: preserve-3d;
-	transform: skew(12deg, -10deg);
 	border: 2px solid var(--main);
-	box-shadow: 15px -5px 35px 15px var(--main);
 }
 
 

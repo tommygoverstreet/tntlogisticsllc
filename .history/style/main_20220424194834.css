@@ -213,7 +213,7 @@ body {
 	transform-style: preserve-3d;
 	transform: skew(12deg, -10deg);
 	border: 2px solid var(--main);
-	box-shadow: 15px -5px 35px 15px var(--main);
+	box-shadow: 33px -5px 50px 45px var(--main);
 }
 
 

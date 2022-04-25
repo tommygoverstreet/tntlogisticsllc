@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+ * {}
+
+ .hero {
+  /*-- scaleX: 25%; ----*/
+  background-attachment: scroll;
+ }
+
+
+
+
+
+
+
+}
