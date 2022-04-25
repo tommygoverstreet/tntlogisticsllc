@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap");
 
 :root {
-	--secondary: rgb(2, 16, 37);
+	--secondary: rgb(2, 16%, 37%);
 	--main: rgb(227, 228, 230);
-	--light: rgb(2, 16, 37);
+	--light: rgb(2, 16, 37));
 	--dark: #011120;
 	--full-width: 100vw;
 	--half-width: 50vw;
@@ -30,11 +30,8 @@ body {
 	width: 100vw;
 	height: 8vh;
 	position: fixed;
-	background-color: var(--secondary);
-	color: var(--main);
-	z-index: 90;
-	border-bottom: 1px solid var(--secondary);
-	box-shadow: 1px 1px 25px var(--main);
+	background-color: var(--main);
+	z-index: 99;
 }
 
 /*-- Navigation --*/
@@ -61,7 +58,7 @@ body {
 /*-- Nav Container Hidden --*/
 .navbar .nav-container a {
 	text-decoration: none;
-	color: var(--main);
+	color: var(--secondary);
 	font-weight: 500;
 	font-size: 1.2rem;
 	/*-- padding: 0.7rem; --*/
@@ -113,7 +110,7 @@ body {
 	width: 100%;
 	border-radius: 10px;
 	color: var(--main);
-	background-color: var(--main);
+	background-color: var(--secondary);
 }
 
 /*-- Hamburger Line 1 --*/
@@ -166,7 +163,6 @@ body {
 	background-color: transparent;
 	color: var(--secondary);
 	border-radius: 15px;
-	box-shadow: -12px -5px 25px -12px var(--main);
 }
 
 /*-- Hamburger Lines Checked Status --*/
@@ -206,8 +202,8 @@ body {
 }
 
 .business-card-img {
-	width: 55vw;
-	height: 55vh;
+	width: 65vw;
+	height: 65vh;
 	color: var(--main);
 	background-color: var(--secondary);
 	margin: 5vh 15vw 2vh 2vw;
@@ -217,7 +213,7 @@ body {
 	transform-style: preserve-3d;
 	transform: skew(12deg, -10deg);
 	border: 2px solid var(--main);
-	box-shadow: 2px 2px 25px 5px var(--main);
+	box-shadow: 15px -5px 35px 15px var(--main);
 }
 
 
@@ -227,7 +223,7 @@ body {
 	background-color: var(--main);
 	width: 100vw;
 	height: 35vh;
-	box-shadow: 20px var(--main) 15px;
+	box-shadow: 20px var(--main) 15px 0.7;
 	padding: 0 15%;
 	display: grid;
 	grid-template-columns: 0.5fr 1fr;
@@ -236,7 +232,6 @@ body {
 
 .quote {
 	margin: auto;
-	padding: 10%;
 	font-size: 3.5em;
 	box-shadow: 5px 5px 25px 15px var(--secondary);
 	background-color: var(--secondary) 0.5;
@@ -244,12 +239,7 @@ body {
 	font-weight: 750;
 	color: var(--secondary);
 	transform: rotateX(25deg) rotateY(25deg);
-	transform: translateX(50%%) translateY(-50%), rotate(25deg);
 
-}
-
-.subscribe-container {
-	margin: auto;
 }
 
 .main-block {
@@ -266,7 +256,6 @@ form {
 	padding: 25px;
 	box-shadow: 0 2px 5px var(--main);
 	background: var(--main);
-	z-index: 99;
 }
 
 .fas {
@@ -419,8 +408,4 @@ button:hover {
 		margin-top: 2%;
 		margin-left: 28%;
 	}
-}
-
-form {
-	z-index: 99;
 }

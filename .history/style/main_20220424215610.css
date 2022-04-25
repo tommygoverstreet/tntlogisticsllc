@@ -32,9 +32,9 @@ body {
 	position: fixed;
 	background-color: var(--secondary);
 	color: var(--main);
-	z-index: 90;
+	z-index: 99;
 	border-bottom: 1px solid var(--secondary);
-	box-shadow: 1px 1px 25px var(--main);
+	box-shadow: 1px 1px 25px 1px var(--main);
 }
 
 /*-- Navigation --*/
@@ -166,7 +166,6 @@ body {
 	background-color: transparent;
 	color: var(--secondary);
 	border-radius: 15px;
-	box-shadow: -12px -5px 25px -12px var(--main);
 }
 
 /*-- Hamburger Lines Checked Status --*/
@@ -227,7 +226,7 @@ body {
 	background-color: var(--main);
 	width: 100vw;
 	height: 35vh;
-	box-shadow: 20px var(--main) 15px;
+	box-shadow: 20px var(--main) 15px 0.7;
 	padding: 0 15%;
 	display: grid;
 	grid-template-columns: 0.5fr 1fr;
@@ -236,7 +235,6 @@ body {
 
 .quote {
 	margin: auto;
-	padding: 10%;
 	font-size: 3.5em;
 	box-shadow: 5px 5px 25px 15px var(--secondary);
 	background-color: var(--secondary) 0.5;
@@ -244,12 +242,7 @@ body {
 	font-weight: 750;
 	color: var(--secondary);
 	transform: rotateX(25deg) rotateY(25deg);
-	transform: translateX(50%%) translateY(-50%), rotate(25deg);
 
-}
-
-.subscribe-container {
-	margin: auto;
 }
 
 .main-block {
@@ -266,7 +259,6 @@ form {
 	padding: 25px;
 	box-shadow: 0 2px 5px var(--main);
 	background: var(--main);
-	z-index: 99;
 }
 
 .fas {
@@ -419,8 +411,4 @@ button:hover {
 		margin-top: 2%;
 		margin-left: 28%;
 	}
-}
-
-form {
-	z-index: 99;
 }

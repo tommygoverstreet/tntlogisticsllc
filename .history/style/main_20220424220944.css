@@ -32,7 +32,7 @@ body {
 	position: fixed;
 	background-color: var(--secondary);
 	color: var(--main);
-	z-index: 90;
+	z-index: 99;
 	border-bottom: 1px solid var(--secondary);
 	box-shadow: 1px 1px 25px var(--main);
 }
@@ -244,12 +244,7 @@ body {
 	font-weight: 750;
 	color: var(--secondary);
 	transform: rotateX(25deg) rotateY(25deg);
-	transform: translateX(50%%) translateY(-50%), rotate(25deg);
 
-}
-
-.subscribe-container {
-	margin: auto;
 }
 
 .main-block {
@@ -266,7 +261,6 @@ form {
 	padding: 25px;
 	box-shadow: 0 2px 5px var(--main);
 	background: var(--main);
-	z-index: 99;
 }
 
 .fas {
@@ -419,8 +413,4 @@ button:hover {
 		margin-top: 2%;
 		margin-left: 28%;
 	}
-}
-
-form {
-	z-index: 99;
 }
