@@ -223,24 +223,14 @@ body {
 	background-color: var(--main);
 	width: 100vw;
 	height: 35vh;
+	font-size: 1.3em;
 	box-shadow: 20px var(--main) 15px 0.7;
 	padding: 0 15%;
 	display: grid;
-	grid-template-columns: 0.5fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	position: relative;
 }
 
-.quote {
-	margin: auto;
-	font-size: 3.5em;
-	box-shadow: 5px 5px 25px 15px var(--secondary);
-	background-color: var(--secondary) 0.5;
-	border-radius: 5%;
-	font-weight: 750;
-	color: var(--secondary);
-	transform: rotateX(25deg) rotateY(25deg);
-
-}
 
 .main-block {
 	display: flex;

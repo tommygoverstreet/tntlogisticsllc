@@ -226,7 +226,7 @@ body {
 	box-shadow: 20px var(--main) 15px 0.7;
 	padding: 0 15%;
 	display: grid;
-	grid-template-columns: 0.5fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	position: relative;
 }
 
@@ -237,7 +237,7 @@ body {
 	background-color: var(--secondary) 0.5;
 	border-radius: 5%;
 	font-weight: 750;
-	color: var(--secondary);
+	color: var(--main);
 	transform: rotateX(25deg) rotateY(25deg);
 
 }
